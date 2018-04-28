@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="description" content="Šeširi, mašne, kravate sve to možete naći u stil shop online i na... ">
+    <meta name="keywords" content="šeširi,mašne,kravate,stil,shop">
+    <meta name="author" content="Rajko Vrga">
+    <title>Shop Stil</title>
+    <link rel="icon" href="slike/ikonica.ico" />
+    <link rel="stylesheet" href="css/stil.css" />
+</head>
+
+<body>
+    <div id="meni" class="container-fluid navbar  navbar-default navbar1">
+        <div class="row navbar1">
+            <div class="navbar-header">
+                <button type="button" id="toggle2" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+                                    <span class="icon-bar" id="ikonica2"></span>
+                                    <span class="icon-bar" id="ikonica2"></span>
+                                    <span class="icon-bar" id="ikonica2"></span>
+                                </button>
+                <img src="slike/malaslika.png" class="logo" alt="logo slika">
+            </div>
+            <div class="collapse navbar-collapse" id="mainNavBar">
+                <div class="col-sm-1 " id="deo1"> <img src="slike/malaslika.png" class="logo2" alt="logo slika"></div>
+                <div class="col-sm-10" id="deo2">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html"> Početna
+                                    </a>
+                        </li>
+                        <li><a href="autor.html">Autor</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Proizvodi
+                                    <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="kravate.html">Kravate</a></li>
+                                <li><a href="sesiri.html">Šeširi</a></li>
+                                <li><a href="masne.html">Mašne</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-1 " id="deo3">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="kasa.html"> <span class="glyphicon kasa glyphicon-shopping-cart"></span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="carousel slide" id="slider" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#slider" data-slide-to="0" class="active"></li>
+            <li data-target="#slider" data-slide-to="1"></li>
+            <li data-target="#slider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner mx-auto">
+            <div class="item active">
+                <div class="item item2 col-12 text-center ">
+                    <h1 class="cssload-loader naslov-slajda">Nova kolekcija</h1>
+                    <img src="slike/sesir-slajd.png" alt="Nova kolekcija">
+                    <h3 class="stilizovanje">Uskoro i kod nas</h3>
+                </div>
+            </div>
+            <div class="item item2 col-12 text-center ">
+                <h1 class="cssload-loader naslov-slajda">25%</h1>
+                <img src="slike/zima.png" alt="Zimski modeli">
+                <h3 class="stilizovanje">Rasprodaja zimskih modela</h3>
+            </div>
+            <div class="item item2 col-12 text-center ">
+                <h1 class="cssload-loader naslov-slajda">Nova lokacija</h1>
+                <img src="slike/mapa.png" alt="Uskoro na Paliluli">
+                <h3 class="stilizovanje">Uskoro na Paliluli</h3>
+            </div>
+        </div>
+        <a href="#slider " class="left carousel-control " data-slide="prev" role="button "><span class="icon-prev "></span></a>
+        <a href="#slider " class="right carousel-control" data-slide="next" role="button "><span class="icon-next "></span></a>
+    </div>
+
+
+    <div class="container-fluid">
+
+        <div class="collapse navbar-collapse" id="mainNavBar">
+            <div class="col-sm-4 kateg  col-xs-12 col-xs-offset-1">
+                <a href="masne.html">
+                    <p class="color-primary nasl " id="prvi">mašne</p>
+                </a>
+            </div>
+            <div class="col-sm-4  kateg col-xs-12 ">
+                <a href="sesiri.html">
+                    <p class="color-primary nasl" id="drugi">šeširi</p>
+                </a>
+            </div>
+            <div class="col-sm-4  kateg col-xs-12 col-xs-offset-1">
+                <a href="kravate.html">
+                    <p class="color-primary nasl" id="treci">kravate</p>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container-fluid ">
+        <div class="row ">
+            <div class="col-sm-12 text-center plavo" id="pad">
+                <h2 class="bg-tx-cl"><span class="glyphicon glyphicon-map-marker "></span>Lokacija
+                </h2>
+                <iframe id="lok" class="col-sm-6 col-sm-offset-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2246.817597495391!2d20.472290133562044!3d44.80500346274808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7aa1b1136ee3%3A0xb5c61336c20a2ae4!2z0JrRg9C80LDQvdC-0LLRgdC60LAgMTIsINCR0LXQvtCz0YDQsNC0!5e0!3m2!1ssr!2srs!4v1517707939915"
+                    frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-4 col-sm-offset-4  text-center">
+                <h2 class=" text-center"><span class="glyphicon glyphicon-info-sign"></span>Informacije
+                </h2>
+                <address>
+                    <ul class="list-group">
+                        <li class="list-group-item"><i class="	glyphicon glyphicon-earphone"></i> 011/555-333
+                        </li>
+                        <li class="list-group-item"><i class="	glyphicon glyphicon-print"></i> 011/242-533
+                        </li>
+                        <li class="list-group-item"><i class="glyphicon glyphicon-envelope"></i> shop&#46;stil&#64;yahoo&#46;com
+                        </li>
+                        <li class="list-group-item"><i class=" 	glyphicon glyphicon-hourglass"></i>
+                            Radnim danom: 10:00 - 18:00</li>
+                    </ul>
+                    </address>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container-fluid">
+
+        <div class="row plavo">
+            <div class="col-sm-8 col-sm-offset-2">
+                <div class="carousel slide media-carousel" id="media" data-ride="carousel">
+
+
+                    <div class="carousel-inner mx-auto">
+                        <div class="item  active">
+                            <div class="row">
+                                <div class=" bg-tx-cl col-sm-6 col-sm-offset-3 text-center">
+
+                                    <h2>Tamara, 25</h2>
+                                    <p>"Mesto koje svako treba posetiti"</p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class=" bg-tx-cl col-sm-6 col-sm-offset-3 text-center">
+
+                                    <h2>Ivan, 19</h2>
+                                    <p>"Prezadovoljan uslugom i osobljem"</p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class=" bg-tx-cl col-sm-6 col-sm-offset-3 text-center">
+
+                                    <h2>Milos, 38</h2>
+                                    <p>"Ima veliki izbor kravata i šešira, odlično za svečane prilike"</p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="  bg-tx-cl col-sm-6 col-sm-offset-3 text-center">
+
+                                    <h2>Jasna, 28</h2>
+                                    <p>"Najbolje mesto za kupovinu poklona muškoj osobi"</p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <a data-slide="prev" href="#media" class="left carousel-control ">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a data-slide="next" href="#media" class="right carousel-control">
+                        <span class="dugme-sl glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid futer">
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 jedan">
+                <div class="drustvene">
+                    <ul class="list-unstyled">
+                        <li><a href="http://www.instagram.com/rajkoo__v"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="sitemap.xml"><i class="fas fa-sitemap"></i></a></li>
+                        <li><a href="info.xml"><i class="fas fa-rss-square"></i></a></li>
+                    </ul>
+                </div>
+                <form id="custom-search-form" class="form-search form-horizontal pull-right">
+                    <div class="input-append span12">
+                        <input type="text" class="search-query" placeholder="Pretraga">
+                        <button type="submit" class="btn"> <span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid copy">
+        <div class="row text-center ">
+            <h5>&copy; Rajko Vrga</h5>
+        </div>
+    </div>
+    <script src="analit.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+</body>
+
+</html>

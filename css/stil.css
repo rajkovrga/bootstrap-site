@@ -1,0 +1,749 @@
+﻿#stvari,
+.koko,
+.koko2 {
+    padding: 0
+}
+
+.copy,
+.cssload-loader::after,
+.futer {
+    bottom: 0
+}
+
+a {
+    text-decoration: none!important
+}
+
+.koko,
+.kupovina {
+    display: flex;
+    width: 100%
+}
+
+#stvari {
+    background-color: rgba(44, 83, 155, .89)
+}
+
+#page,
+.cssload-loader::before {
+    top: 0
+}
+
+.cssload-loader,
+h1 {
+    text-align: center
+}
+
+.item2 {
+    background-size: 100% 100%
+}
+
+.koko {
+    justify-content: space-around
+}
+
+.jedan,
+.kupovina {
+    justify-content: space-between
+}
+
+.cssload-loader,
+.nasl {
+    text-transform: uppercase
+}
+
+body {
+    height: 100vh;
+    background: fixed #fff;
+    background-size: 100% 100%
+}
+
+.masna1,
+.masna2,
+.masna3,
+.masna4,
+.masna5,
+.masna6,
+.proizvod1,
+.proizvod2,
+.proizvod3,
+.proizvod4,
+.proizvod5,
+.proizvod6,
+.sesir1,
+.sesir2,
+.sesir4,
+.sesir5,
+.sesir6 {
+    background-size: 100% 100%
+}
+
+#proizvodi {
+    margin-bottom: 9px;
+    padding: 30px
+}
+
+.copy {
+    position: relative
+}
+
+.plavo {
+    background-color: rgba(44, 83, 155, .89);
+    border-top: solid rgba(23, 23, 94, .815) 2px;
+    border-bottom: solid rgba(41, 41, 184, .815) 2px
+}
+
+#slider2 {
+    padding: 80px 0
+}
+
+#pad {
+    padding-bottom: 40px
+}
+
+.bg-tx-cl {
+    color: #fff
+}
+
+#propp,
+.pozz {
+    padding: 30px
+}
+
+.proizvod-kravata1 {
+    padding: 31px 31px 15px
+}
+
+.proizvod-kravata {
+    margin-bottom: 15px;
+    height: 280px;
+    border: 1px solid #a7a7a7;
+    border-radius: 5px;
+    transition: all .41s
+}
+
+.proizvod-kravata:hover {
+    box-shadow: 2px 2px rgba(145, 140, 140, .76)
+}
+
+.slika-proizvoda {
+    height: 82%;
+    opacity: .81
+}
+
+#ikonica2 {
+    background-color: #185bb3
+}
+
+.slika-proizvoda:hover {
+    opacity: 1;
+    transition: .6s
+}
+
+.kupovina {
+    background-color: rgba(36, 74, 143, .986);
+    height: 18%;
+    border-radius: 0 0 5px 5px;
+    padding: 4px 2px 5px
+}
+
+.kupovina button {
+    padding: 10px 7px 25px
+}
+
+#dugme,
+.item2 img,
+.slika,
+h3 {
+    margin: 0 auto
+}
+
+.proizvod1 {
+    background-image: url(../slike/kravata-pro.gif)
+}
+
+.proizvod2 {
+    background-image: url(../slike/kravata-pro2.gif)
+}
+
+.proizvod3 {
+    background-image: url(../slike/kravata-pro3وات-مجلسی-مردانه.gif)
+}
+
+.proizvod4 {
+    background-image: url(../slike/kravata-pro4.gif)
+}
+
+.proizvod5 {
+    background-image: url(../slike/kravata-pro5.gif)
+}
+
+.proizvod6 {
+    background-image: url(../slike/kravata-pro6.gif)
+}
+
+.sesir1 {
+    background-image: url(../slike/sesir1.gif)
+}
+
+.sesir2 {
+    background-image: url(../slike/sesir2.gif)
+}
+
+.sesir3 {
+    background-image: url(../slike/sesir3.gif);
+    background-size: 100% 100%
+}
+
+.sesir4 {
+    background-image: url(../slike/sesir4.gif)
+}
+
+.sesir5 {
+    background-image: url(../slike/sesir5.gif)
+}
+
+.sesir6 {
+    background-image: url(../slike/sesir6.gif)
+}
+
+.masna1 {
+    background-image: url(../slike/masna1.gif)
+}
+
+.masna2 {
+    background-image: url(../slike/masna2.gif)
+}
+
+.masna3 {
+    background-image: url(../slike/masna3.gif)
+}
+
+.masna4 {
+    background-image: url(../slike/masna4.gif)
+}
+
+.masna5 {
+    background-image: url(../slike/masna5.gif)
+}
+
+.masna6 {
+    background-image: url(../slike/masna6.gif)
+}
+
+.proizvod1,
+.proizvod2,
+.proizvod3,
+.proizvod4,
+.proizvod5,
+.proizvod6,
+.sesir1,
+.sesir2,
+.sesir3 {
+    background-size: 100% 100%
+}
+
+.pozz {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(182, 182, 182, .226)
+}
+
+.logo {
+    margin-left: 8px;
+    display: none
+}
+
+.pozz:hover {
+    background-color: rgba(182, 182, 182, 0);
+    transition: .8s
+}
+
+@media screen and (max-width:940px) {
+    .nasl {
+        font-size: 2.9em
+    }
+}
+
+@media screen and (max-width:768px) {
+    .logo {
+        display: block
+    }
+    .logo2 {
+        display: none
+    }
+}
+
+.naziv {
+    color: rgba(255, 255, 255, .856);
+    font-size: 1.5em;
+    font-weight: bolder;
+    letter-spacing: 3px
+}
+
+.fa-map-marker-alt {
+    font-size: 3em
+}
+
+#lok {
+    border-radius: 40px
+}
+
+.item2 {
+    height: auto;
+    padding: 100px 0;
+    background-image: url(../slike/slajd-slika.jpg)
+}
+
+.item2 img,
+h3 {
+    padding-bottom: 18px
+}
+
+#toggle2 {
+    border-color: #002aff
+}
+
+#meni {
+    position: sticky;
+    top: 0;
+    z-index: 11;
+    margin: 0 0 -10px;
+    padding: 0;
+    background-color: #fffeff
+}
+
+.cssload-loader {
+    width: 469px;
+    height: 94px;
+    line-height: 94px;
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: helvetica, arial, sans-serif;
+    font-weight: 900;
+    font-size: 34px;
+    color: rgba(0, 0, 0, .74);
+    letter-spacing: .2em
+
+}
+
+.cssload-loader::after,
+.cssload-loader::before {
+    content: "";
+    display: block;
+    width: 28px;
+    height: 28px;
+    background: #092866;
+    position: absolute;
+    animation: cssload-load 2.1s infinite alternate  ease-in-out;
+}
+
+#page,
+.futer {
+    position: relative
+}
+
+#page,
+.jedan,
+.snimci,
+.stavljanje {
+    display: flex
+}
+
+#drugi,
+#prvi,
+#treci {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 20px
+}
+
+.naslov-slajda {
+    margin-bottom: 10px;
+    color: rgba(16, 28, 100, .959)
+}
+
+#prvi {
+    background-image: url(../slike/masna.gif);
+    max-width: 100%;
+    transition: all .3s;
+}
+
+#drugi {
+    background-image: url(../slike/sesir.gif);
+    max-width: 100%;
+    transition: all .3s;
+}
+
+#treci {
+    background-image: url(../slike/kravata.gif);
+    max-width: 100%;
+    transition: all .3s;
+}
+
+#drugi:hover,
+#prvi:hover,
+#treci:hover {
+    transition: .4s;
+    transform: scale(1.025);
+}
+
+.kateg {
+    margin: 10px 0;
+    padding: 20px
+}
+
+.nasl {
+    font-size: 3.2em;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: left;
+    color: #14162e
+}
+
+.kasaz {
+    margin-bottom: 20px
+}
+
+#border-bottom {
+    border-bottom: 2px solid rgba(131, 131, 131, .548)
+}
+
+@keyframes cssload-load {
+    0% {
+        left: 0;
+        height: 56px;
+        width: 28px
+    }
+    50% {
+        height: 15px;
+        width: 75px
+    }
+    100% {
+        left: 441px;
+        height: 56px;
+        width: 28px
+    }
+}
+
+@media screen and (max-width:750px) {
+    .cssload-loader {
+        font-size: 21px
+    }
+}
+
+.fa-cart-plus {
+    font-size: 1.4em
+}
+
+#page {
+    height: 380px;
+    overflow: hidden;
+    background: url(../slike/my-bgbg.gif) center center no-repeat;
+    left: 0;
+    flex-direction: column;
+    justify-content: center;
+    background-size: 100% 100%
+}
+
+#page h3 {
+    margin-top: 10px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 2.4em;
+    background-color: #fff
+}
+
+#magnify {
+    background: url(../slike/mojaslika.gif) 45% 25% no-repeat;
+    width: 200px;
+    height: 200px;
+    margin: 4px auto 0;
+    border-radius: 200px;
+    border: 10px solid rgba(156, 156, 156, .856);
+    background-size: 400px
+}
+
+.tabela-pozadina {
+    background-color: rgba(37, 67, 201, .274);
+    color: #010305;
+    letter-spacing: 3px;
+    font-weight: 700
+}
+
+.mojtekst,
+.stilizovanje {
+    color: #fff
+}
+
+.tabela-pozadina2 {
+    background-color: rgba(37, 67, 201, .384);
+    color: #fff;
+}
+
+.mojtekst {
+    margin-top: 10px;
+    padding: 5px 3%;
+    border-radius: 12px;
+    font-size: 1.3em;
+    text-align: justify;
+    margin-bottom: 10px;
+    background-color: rgba(44, 83, 155, .89);
+}
+
+.stavljanje {
+    margin: 0;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 0;
+    background-color: rgba(158, 158, 158, .295)
+}
+
+.btnn,
+.futer {
+    background-color: rgba(44, 83, 155, .89)
+}
+
+.stavljanje h3 {
+    font-size: 3em;
+    font-weight: 700
+}
+
+.stavljanje a {
+    margin: 0 auto
+}
+
+.snimci {
+    flex-direction: column
+}
+
+.jedan {
+    align-items: center
+}
+
+.meni-pozicija {
+    display: flex;
+    justify-content: space-between;
+    border: 0;
+}
+
+.futer {
+    margin-top: 10px;
+    border-top: 1px solid;
+    border-bottom: 1px solid
+}
+
+#photo-my-bg {
+    padding: 0
+}
+
+.drustvene {
+    font-size: 2.3em
+}
+
+.drustvene ul {
+    margin: 0;
+    padding: 0 6px;
+    border-radius: 3px
+}
+
+.drustvene ul li {
+    text-align: center;
+    display: inline-block;
+    margin-left: 5px
+}
+
+.snimci a {
+    margin: 0 auto 15px
+}
+
+.snimak {
+    height: 350px;
+    margin-bottom: 25px;
+    border-radius: 3%
+}
+
+.tabovi .reglog>a {
+    margin-right: 0
+}
+
+.btn-success {
+    transition: .5s
+}
+
+.reglog {
+    border: 1px solid rgba(255, 255, 255, .582);
+    border-radius: 5px
+}
+
+.btn-success:focus,
+.btn-success:hover {
+    background: #a3a3a3;
+    color: #000;
+    transition: all .4s
+}
+
+#bg-nav {
+    background-color: rgba(44, 83, 155, .89)
+}
+
+#bg-nav a {
+    color: #000
+}
+
+.navbar1 {
+    font-size: 1.3em;
+    padding: 0;
+    margin: 0;
+    text-align: center
+}
+
+.navbar1 #deo2 {
+    box-sizing: border-box;
+    padding: 0;
+    display: flex;
+    font-size: 1.1em;
+    justify-content: center;
+}
+
+.kasa {
+    font-size: 1.4em
+}
+
+.btn-warning {
+    transition: .5s
+}
+
+.btn-warning:focus,
+.btn-warning:hover {
+    background: #979797;
+    color: #000
+}
+
+.panel.with-nav-tabs .nav-tabs {
+    border-bottom: none
+}
+
+.panel.with-nav-tabs .nav-justified {
+    margin-bottom: -4px
+}
+
+.panel {
+    margin: 7%
+}
+
+.modal-header {
+    color: rgba(0, 0, 0, .671);
+    text-align: center
+}
+
+.input-group-addon {
+    background-color: rgba(44, 83, 155, .89);
+    color: #fff
+}
+
+#custom-search-form {
+    margin: 5px 0 0;
+    padding: 0 7px
+}
+
+#custom-search-form .search-query {
+    padding: 9px;
+    margin-bottom: 0;
+    border-radius: 7px
+}
+
+#custom-search-form button {
+    background: 0 0;
+    padding: 2px 5px;
+    margin-top: 2px;
+    position: relative;
+    left: -28px;
+    border-radius: 7px
+}
+
+.drustvene ul li a {
+    color: #fff
+}
+
+.drustvene ul li a:hover {
+    color: rgba(63, 63, 63, .651)
+}
+
+@media screen and (max-width:405px) {
+    .jedan {
+        display: block
+    }
+    #magnify {
+        border: 10px solid rgba(255, 255, 255, .856)
+    }
+    .jedan .drustvene ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto
+    }
+    .jedan form {
+        display: flex;
+        width: 100%;
+        margin-left: 10px;
+        justify-content: center
+    }
+    #page h3 {
+        font-size: 1.8em
+    }
+}
+
+.media-carousel {
+    margin-bottom: 0;
+    padding: 0 40px 20px;
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0)
+}
+
+.media-carousel .carousel-control.left {
+    border-radius: 50%;
+    background: 0 0;
+    height: 40px;
+    width: 40px;
+    margin-top: 30px
+}
+
+.media-carousel .carousel-control.right {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-top: 30px;
+    background-image: none
+}
+
+.media-carousel .carousel-indicators {
+    right: 50%;
+    background: 0 0;
+    bottom: 0;
+    margin-right: -19px
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #b0b0c4
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #131a64;
+    border-radius: 5px
+}
+
+#ceo-futer {
+    width: 100%
+}
+
+@media screen and (min-height:768px) {
+    #ceo-futer {
+        position: absolute;
+        bottom: 0
+    }
+}

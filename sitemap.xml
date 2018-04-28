@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+  <loc>https://www.stil-shop.000webhostapp.com</loc>
+  <lastmod>2018-2-09</lastmod>
+  <priority>0.95</priority>
+  <changeFreq>Weekly</changeFreq>
+</url>
+<url>
+  <loc>https://www.stil-shop.000webhostapp.com/index.html</loc>
+  <lastmod>2018-2-09</lastmod>
+  <priority>0.95</priority>
+  <changeFreq>Weekly</changeFreq>
+</url>
+<url>
+  <loc>https://www.stil-shop.000webhostapp.com/autor.html</loc>
+  <lastmod>2018-2-09</lastmod>
+  <priority>0.80</priority>
+  <changeFreq>Weekly</changeFreq>
+</url>
+<url>
+  <loc>https://www.stil-shop.000webhostapp.com/masne.html</loc>
+  <lastmod>2018-2-09</lastmod>
+  <priority>0.60</priority>
+  <changeFreq>Montly</changeFreq>
+</url>
+<url>
+  <loc>https://www.stil-shop.000webhostapp.com/kravate.html</loc>
+  <lastmod>2018-2-09</lastmod>
+  <priority>0.60</priority>
+  <changeFreq>Montly</changeFreq>
+</url>
+<url>
+  <loc>https://www.stil-shop.000webhostapp.com/sesiri.html</loc>
+  <lastmod>2018-2-09</lastmod>
+  <priority>0.50</priority>
+  <changeFreq>Montly</changeFreq>
+</url>
+<url>
+  <loc>https://www.stil-shop.000webhostapp.com/kasa.html</loc>
+  <lastmod>2018-2-09</lastmod>
+  <priority>0.50</priority>
+  <changeFreq>Montly</changeFreq>
+  </url>
+</urlset>
